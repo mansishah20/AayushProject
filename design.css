@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation BAr */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+nav li {
+
+    float: left;
+    list-style: none;
+    margin: 2px 2px;
+    padding: 24px 14px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* LOGO SIZing AND CONFIGURING */
+#logo {
+    margin: 10px 10px;
+}
+
+#logo img {
+    padding: 2px 50px;
+    height: 45px;
+    overflow: auto;
+
+}
+
+/* TWO FLEX ITEMS */
+.img-nav
+{
+    position:absolute;
+    top: -275px;
+    right: -459px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    /* padding: 8px; */
+    height: 810px;
+    width: 1450px;
+    border-radius: 135px 1150px;   
+    z-index: -1;
+}
+ .left-flex
+  {  
+    position:relative;
+    left: -750px;
+    top:150px;
+    height: 1660px;
+    width: 1360px;
+    display: flex;    
+    background-color: grey;
+    /* padding: 8px; */
+    border-radius: 450px ;
+    /* padding-left: 1200px;    */
+    z-index: -10;
+} 
+  .title-text-lf
+  {
+    display: inline;
+    position: relative;
+    /* background-color: red; */
+    top: 180px;
+    margin: -140px -210px;
+    padding: 95px 10px;
+    padding: 95px 10px;
+    right: -1013px;
+    height: 201px;
+    width: 347px;
+    justify-content: right;
+    z-index: -9;
+    border: 2px solid black;
+  }
+  .text-flex
+  {
+  
+    /* background-color: aquamarine; */
+    border:2px solid black;
+  }
+  /* TEXT LEFT SIDE */
+  .title-text-lf h1
+  {
+    display: inline-block;
+    /* background-color: antiquewhite; */
+    height: 31px;
+    width: 118px;
+    padding: 0px;
+    border: 2px solid black;
+ }
+
+/* FLEX BOXES ON CENTER SHOWING OURTEAM?RESOUCE ETC */
+.flex-containers
+{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 732px;
+    right: 245px;
+    height: 661px;
+    width: 493px;
+    padding: 10px;
+    margin: 30px;
+    flex-direction: column;
+}
+ 
+.item
+{
+
+border: 2px solid black;
+width: 246px;
+height: 200px;
+padding: 10px;
+margin: 30px;
+}
+
+/* SECTION BELOW ALL FLEXBOX [Lorem, ipsum.] */
+.flex-info {
+    display: flex;
+    position: relative;
+    border: 2px solid red;
+    height: 620px;
+    top: 199px;
+    padding: 35px;
+    margin: 20px;
+    width: 1250px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-info h1 {
+    background-color: red;
+    overflow: auto;
+    height: 74px;
+    width: 937px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.fitem {
+    display: flex;
+    border: 2px solid green;
+    height: 200px;
+    width: 300px;
+    padding: 3px;
+    margin: 20px;
+    position: relative;
+}
+
+.footer
+
+{
+    border: 3px solid green;
+    background-color: greenyellow;
+    display: flex;
+    position: relative;
+    height: 346px;
+    width: 1300px;
+    top: 203px;
+    left: 10px;
+}
